@@ -10,17 +10,6 @@ def echo(data, t : str, nt = 100):
            data.subClient.send_message(data.chatId,message=t,messageType=109)
 
 @client.command()
-def coins(data, amt : int , nt = 1):
-    print(data.comId)
-    print(data.authorId)
-    print(data.chatId)
-    amt , nt = int (amt) , int(nt)
-    for _ in range(nt):
-           try:
-           	data.subClient.send_message(chatId= data.chatId,coins=amt,transactionId="0dff83e6-dd46-4e2d-a256-8162de572231")
-           except:
-           	pass
-@client.command()
 def echo(data, t : str, nt = 100):
     for _ in range(int(nt)):
            data.subClient.send_message(data.chatId,message=t)
