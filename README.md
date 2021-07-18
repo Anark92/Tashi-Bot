@@ -1,2 +1,0 @@
-# Tashi-Bot
-Bot Tashi
