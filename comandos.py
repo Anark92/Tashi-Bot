@@ -30,8 +30,7 @@ def echo_help(data):
      data.subClient.send_message(data.chatId,message="[ci]Tengo dos -echo, el normal y el -echo_ghost; el segundo es un mensae fantasma")
 @client.command()
 def minecraft(data):
-     data.subClient.send_message(data.chatId,message="""[ci]Los que tengo por ahora es:
-     	 [ci]-steve""")
+     data.subClient.send_message(data.chatId,message="[ci]Los que tengo por ahora es:\n[ci]-steve")
      data.subClient.send_message(data.chatId,message="[ci]Mi creador es esta persona <3\n[ci]http://aminoapps.com/u/Anark1")
 @client.answer("Tashi prendete")
 def hello (data):
